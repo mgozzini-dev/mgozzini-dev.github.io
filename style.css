@@ -1,0 +1,205 @@
+*
+{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+section{
+    height: 100vh;
+}
+
+
+/* Hero Section */
+
+.hero-section{
+    background: url(img/landscape.jpg);
+    background-size: cover;
+}
+
+.title{
+    width: 100%;    
+    position: relative;
+    top: 240px;
+    text-align: center;
+}
+
+.title h2{
+    opacity: 0.4;
+    font-style: oblique;    
+    font-size: 50px;
+    font-weight: 600 ;
+}
+
+/* About */
+
+.stripe1{
+    height: 50%;
+    background-color: cornflowerblue;
+    position: relative;
+}
+.stripe2{
+    height: 50%;
+    background-color: white;
+}
+
+
+.mi-presento{
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2),
+                -20px -20px 50px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+}
+.presentation-row{
+    height: 400px;
+}
+
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: url(img/landscape.jpg);
+    background-size: cover;
+    
+}
+.foto-profilo {
+    margin-left: 25px;
+}
+
+.foto-profilo .p1{
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.foto-profilo .p2{
+    font-size: 18px;
+    font-style: oblique;
+    color: gray;
+}
+
+.presentation-row .col-md-1{
+    width: 40px;
+}
+
+.divider{
+    margin-left: 25px;
+    border-left: 1px solid lightgray;
+    height: 200px;
+}
+
+.dettagli-profilo li{
+    height: 60px;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dettagli-profilo li a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+
+.navbar {
+    background-color: rgba(172, 168, 168, 0.3);
+}
+
+/* Portfolio */
+.Portfolio{
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-row {
+    padding-top: 50px;
+    
+}
+
+.portfolio-title h1{
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.portfolio-title h4{
+    color: gray;
+    font-style: oblique;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.portfolio-card{
+    border-radius: 20px;
+}
+
+.portfolio-card:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.p-card{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+/* Media */
+
+@media screen and (max-width : 765px){
+
+
+    .mi-presento{
+        height: 800px;
+        bottom: -400px;
+        left: 50%;
+    }
+
+    .presentation-row .col-md-1{
+        width: 100%;
+    }
+
+    .divider{
+        height: 20px;
+        margin: auto;
+        border-left: 0px;
+        border-top: 1px solid lightgray;
+        width: 300px;
+    }
+
+    .foto-profilo {
+        padding-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dettagli-profilo ul {
+        padding-left: 0;
+    }
+
+    
+}
