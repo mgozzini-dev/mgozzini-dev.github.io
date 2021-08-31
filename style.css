@@ -1,0 +1,23 @@
+
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.home{
+    background: url(img/william-thomas-ny6tO4ItOEY-unsplash.jpg);
+    background-size: cover;
+}
+
+.about{
+    background: url(img/v2osk-1Z2niiBPg5A-unsplash.jpg);
+    background-size: cover;
+}
+
+.portfolio{
+    background: url(img/jay-mantri-TFyi0QOx08c-unsplash.jpg);
+    background-size: cover;
+}
